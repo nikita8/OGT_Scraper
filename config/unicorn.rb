@@ -1,6 +1,6 @@
 # define paths and filenames
 env = ENV['RACK_ENV']||'development'
-deploy_to = "/home/ubuntu/Nikita/OGPScraper"
+deploy_to = "/home/ubuntu/Nikita/og_scraper"
 root_path = "#{deploy_to}/shared/"
 pid_file = "#{deploy_to}/shared/tmp/pids/unicorn.pid"
 socket_file= "#{deploy_to}/shared/sockets/unicorn.sock"
