@@ -30,7 +30,7 @@ Start the application server:
 
 ## Features
 
-* POST localhost:3000/stories?url={some_url}
+* POST `localhost:3000/stories?url={some_url}`
 
   Responses:
 
@@ -40,7 +40,7 @@ Start the application server:
   | 400 | `{ status: "error", message: "'url' is missing"}`|
   | 500 | `{ status: "error", message: "Something went wrong"}`|
 
-* GET localhost:3000/stories/:id
+* GET `localhost:3000/stories/:id`
 
   Responses:
 
@@ -65,10 +65,11 @@ GET meta info:
 
 ## Running tests
 1. Start Redis.
-  Using docker: 
-   ```bash
-   docker run --rm -p 6379:6379 redis
-   ```
+
+     Using docker: 
+     ```bash
+     docker run --rm -p 6379:6379 redis
+     ```
 2. Install dependencies.
    ```bash
    bundle install
