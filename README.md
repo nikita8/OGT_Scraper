@@ -65,10 +65,11 @@ GET meta info:
 
 ## Running tests
 1. Start Redis.
-  Using docker: 
-   ```bash
-   docker run --rm -p 6379:6379 redis
-   ```
+
+     Using docker: 
+     ```bash
+     docker run --rm -p 6379:6379 redis
+     ```
 2. Install dependencies.
    ```bash
    bundle install
